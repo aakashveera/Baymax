@@ -30,7 +30,5 @@ Install the following requirements using CMD with pip command.
 8. Pywin32 (pip install pywin32)
 
 While installing face-recognition take a look at <a href='https://github.com/ageitgey/face_recognition/issues/175#issue-257710508'>here</a> to solve issues if any.
-
-A private key is required to use the dialogflow API.<br>
-
-Once requirements are installed place the images to be used for face recognition inside the images folder and make the path changes in the necassary places in the code.
+<br>
+Once requirements are installed place the images to be used for face recognition inside the images folder and make the path changes in the necassary places. Also you will need to place the private key to use the dialogflow API inside python.

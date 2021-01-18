@@ -24,9 +24,13 @@ Install the following requirements using CMD with pip command.
 2. OpenCV (pip install opencv-python)
 3. Cmake (pip install cmake) - To use dlib
 4. Dlib (pip install dlib)
-5. face_recognition (pip install face-recognition)
+5. face-recognition (pip install face-recognition) 
 6. Speech Recognition (pip install SpeechRecognition)
 7. Playsound (pip install playsound)
 8. Pywin32 (pip install pywin32)
 
+While installing face-recognition take a look at <a href='https://github.com/ageitgey/face_recognition/issues/175#issue-257710508'>here</a> to solve issues if any.
+
 A private key is required to use the dialogflow API.<br>
+
+Once requirements are installed place the images to be used for face recognition inside the images folder and make the path changes in the necassary places in the code.
